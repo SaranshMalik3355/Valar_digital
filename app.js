@@ -31,23 +31,6 @@ function scrollHeader() {
 
 window.addEventListener("scroll", scrollHeader);
 
-// Hero type Effect
-
-// const typed = document.querySelector(".typed");
-
-// if (typed) {
-//   let typed_strings = typed.getAttribute("data-typed-items");
-//   typed_strings = typed_strings.split(",");
-//   // console.log(typed_strings);
-//   new Typed(".typed", {
-//     strings: typed_strings,
-//     loop: true,
-//     typeSpeed: 100,
-//     backspeed: 50,
-//     backDelay: 2000,
-//   });
-// }
-
 //Scroll sections active links
 const sections = document.querySelectorAll("section[id]");
 
@@ -177,7 +160,7 @@ modalClose.forEach((el) => {
 const slider = document.querySelector(".slider");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
-const pagination = document.querySelector('.pagination');
+const pagination = document.querySelector(".pagination");
 const slides = document.querySelectorAll(".slide");
 const slideCount = slides.length;
 
