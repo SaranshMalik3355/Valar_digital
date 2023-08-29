@@ -1,0 +1,786 @@
+<!-- Jai shree Ram -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Valar digit project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Swiper js  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- Boxions -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <!-- ================ Header ============== -->
+
+  <header id="header">
+    <div class="container">
+      <a href="" class="logo">
+        <img class="l" src="./Images/logo-no-background.png" alt="" />
+      </a>
+      <ul class="menu">
+        <li class="menu_item">
+          <a href="#hero" class="menu_link active-link">Home</a>
+        </li>
+        <li class="menu_item">
+          <a href="#works" class="menu_link">How it works</a>
+        </li>
+        <li class="menu_item">
+          <a href="#science" class="menu_link">Science</a>
+        </li>
+        <li class="menu_item">
+          <a href="#items" class="menu_link">Items</a>
+        </li>
+        <li class="menu_item">
+          <a href="#contact" class="menu_link">Contact</a>
+        </li>
+        <li class="menu_item">
+          <a href="#" class="menu_link cart">
+            <ion-icon name="cart-outline">
+            </ion-icon>
+            <div class="cart-icon">
+              <span id="cart-count">0</span>
+            </div>
+          </a>
+        </li>
+        <ion-icon name="close-outline" class="close_icon"></ion-icon>
+      </ul>
+      <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+    </div>
+  </header>
+
+  <main>
+
+    <!--============= Hero section ============= -->
+
+    <section class="hero section" id="hero">
+      <div class="hero_container container grid">
+
+
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide"><img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Ashwagandha_Front_onwhite.678.1_700x.png?v=1675394102"
+                alt="Image 1"></div>
+            <div class="slide"><img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/8_Benefits_700x.png?v=1675777395"
+                alt="Image 2"></div>
+            <div class="slide"><img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/5_NutritionalInformation_700x.png?v=1675777395"
+                alt="Image 3"></div>
+            <div class="slide"><img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/3_GummyIcons_700x.png?v=1675777395"
+                alt="Image 4"></div>
+            <div class="slide"><img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/2_Hand_Gummy_700x.png?v=1675777395"
+                alt="Image 5"></div>
+            <div class="slide"><img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Ashwagandha_Front_onwhite.678.2_700x.png?v=1675777395"
+                alt="Image 6"></div>
+            <!-- Add more slides as needed -->
+          </div>
+          <button class="prev-btn"><ion-icon name="chevron-back-outline"></ion-icon></button>
+          <button class="next-btn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+          <div class="pagination"></div>
+        </div>
+
+        <div class="hero_content">
+          <h4>Ashwagandha KSM-66®</h4>
+          <div class="rating_snippet">
+            <ion-icon name="star-sharp">
+            </ion-icon>
+            <ion-icon name="star-sharp">
+            </ion-icon>
+            <ion-icon name="star-sharp">
+            </ion-icon>
+            <ion-icon name="star-sharp">
+            </ion-icon>
+            <ion-icon name="star-sharp">
+            </ion-icon>
+            <h6 class="rating_snippet_para">(5 Reviews)</h6>
+          </div>
+
+          <p>
+            Unlock a stronger body and state of mind with Ashwagandha KSM-66®.
+          </p>
+
+          <div class="benefits">
+            <ul class="benefits_menu">
+              <li class="benefits_menu_links"><ion-icon name="checkmark-circle-outline"></ion-icon>Strengthens muscles
+              </li>
+              <li class="benefits_menu_links"><ion-icon name="checkmark-circle-outline"></ion-icon>Amplifies mental
+                awareness</li>
+              <li class="benefits_menu_links"><ion-icon name="checkmark-circle-outline"></ion-icon>Combats stress</li>
+              <li class="benefits_menu_links"><ion-icon name="checkmark-circle-outline"></ion-icon>Fights fatigue</li>
+            </ul>
+          </div>
+          <div class="nb-product-price-wrapper">
+            <h3 class="nb-product-price product-price__money">£21.99</h3>
+          </div>
+          <a id="add-to-cart" href="#" class="btn">
+            Add to cart <ion-icon name="cart-outline"></ion-icon>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============Service section ============= -->
+    <section class="services section" id="works">
+      <h2 class="section_title">How it works</h2>
+
+      <div class="services_container container grid">
+
+        <div class="services_item">
+          <ion-icon name="barbell-outline"></ion-icon>
+          <h3 class="services_title">Strengthens muscles</h3>
+          <span class="services_button">
+            View More <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+          <div class="services_modal">
+            <div>
+              <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+              <h3 class="services_modal-title">Strengthens muscles</h3>
+              <p class="services_modal-description">In traditional Hindu medicine practices, Ashwagandha is often
+                prescribed to enhance strength or "bala" due to its muscle-building and recovery properties. It serves
+                as a safe and natural aid during exercise and training.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="services_item">
+          <ion-icon name="grid-outline"></ion-icon>
+          <h3 class="services_title">Amplifies mental awareness</h3>
+          <span class="services_button">
+            View More <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+          <div class="services_modal">
+            <div>
+              <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+              <h3 class="services_modal-title">Amplifies mental awareness</h3>
+              <p class="services_modal-description">Give your energy, cognition and nerves the support they need with
+                this gummy. It's packed with Iodine, which helps release energy, boosts cognitive function, and promotes
+                normal nerve function (1). Plus, Vitamin B5 plays a role in supporting normal mental performance (2).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="services_item">
+          <ion-icon name="bar-chart-outline"></ion-icon>
+          <h3 class="services_title">Combats stress</h3>
+          <span class="services_button">
+            View More <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+          <div class="services_modal">
+            <div>
+              <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+              <h3 class="services_modal-title">Combats stress</h3>
+              <p class="services_modal-description">Feel rejuvenated with our adaptogenic hero, Ashwagandha. This
+                powerful herb is also known as Indian ginseng and is packed with benefits. Its extract comes from the
+                Withania somnifera plant, a small shrub with yellow flowers mainly grown in India and North Africa.
+                Withania is one of the most popular botanical supplements in the world and is known to help manage
+                stress and boost overall health (5).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="services_item">
+          <ion-icon name="body-outline"></ion-icon>
+          <h3 class="services_title">Fights fatigue</h3>
+          <span class="services_button">
+            View More <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+          <div class="services_modal">
+            <div>
+              <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+              <h3 class="services_modal-title">Fights fatigue</h3>
+              <p class="services_modal-description">Keep up with your fast-paced lifestyle with these gummies. They
+                contain Pantothenic acid to help reduce tiredness and fatigue, while Iodine supports the release of
+                energy from food (3).</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+
+    <!-- =============science section ============= -->
+
+    <section class="science section" id="science">
+      <h2 class="section_title">Science</h2>
+      <div class="product_container container grid">
+        <div class="product_tabs">
+          <ul>
+            <li>
+              <a href="#page-1">Why choose Nutriburst?</a>
+            </li>
+            <li>
+              <a href="#page-2">FAQ's</a>
+            </li>
+            <li>
+              <a href="#page-3">Combinations</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product_content">
+
+
+          <!-- ========= Experience section ========= -->
+
+
+          <div id="page-1" class="page two">
+            <div class="page_heading">Why choose Nutriburst? High standards, high quality vitamins</div>
+            <div class="product_wrap benefits ">
+              <div class="product_wrap-img">
+                <img src="./Images/game-removebg-preview.png" alt="">
+              </div>
+              <div class="product_wrap-content">
+                <h4>Informed Sport Certification</h4>
+                <span class="position">Informed Sport is a global testing and certification programme for sports and
+                  nutritional supplements. Supplement products are tested by LGC's world-class anti-doping laboratory
+                  for contamination against a broad range of banned substances in sport, using ISO 17025 accredited
+                  methods. When you see the Informed Sport quality mark on a product, you can be assured that it has
+                  passed the most stringent sports supplements testing</span>
+              </div>
+            </div>
+            <div class="product_wrap benefits ">
+              <div class="product_wrap-img">
+                <img src="./Images/haccp-removebg-preview.png" alt="">
+              </div>
+              <div class="product_wrap-content">
+                <h4>HACCP Certified Food Safety</h4>
+                <span class="position">Food Safety Preventative Controls for Human Food and Hazard Analysis and Critical
+                  Control Point</span>
+              </div>
+            </div>
+            <div class="product_wrap benefits ">
+              <div class="product_wrap-img">
+                <img src="./Images/garima-removebg-preview.png" alt="">
+              </div>
+              <div class="product_wrap-content">
+                <h4>Global Retailer & Manufacturer Alliance, Inc.</h4>
+                <span class="position">Good Manufacturing Practices for Dietary Supplements
+                  Certification Program v1NSF/ANSI 455-2 -2018</span>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <!-- ========= FQS section ========= -->
+
+          <div id="page-2" class="page three">
+            <div class="page_heading">Frequently Asked Questions</div>
+            <div class="faqBoxs grid">
+              <div class="content_Box">
+                <div class="question">
+                  <span>What is ashwagandha?</span>
+                </div>
+                <div class="answer">
+                  <p>Also known as 'Indian Ginseng' this is an adaptogenic herb that is associated with supporting
+                    mental wellbeing and promoting relaxation and has been used in natural medicine for over 3,000
+                    years.
+                    Ashwagandha for anxiety is particularly well-known, as it has been shown to help manage stress and
+                    anxiety symptoms in some people.</p>
+                </div>
+              </div>
+              <div class="content_Box">
+                <div class="question">
+                  <span>What does ashwagandha do for your body?</span>
+                </div>
+                <div class="answer">
+                  <p>If you're someone who's always on the go and feeling anxious, ashwagandha might be your new best
+                    friend. It's been known to help with stress, anxiety, low mood and can even help with memory,
+                    concentration and relaxation.</p>
+                </div>
+              </div>
+              <div class="content_Box">
+                <div class="question">
+                  <span>Can I take my ashwagandha gummies on an empty stomach?</span>
+                </div>
+                <div class="answer">
+                  <p>Absolutely. Many people find that taking ashwagandha on an empty stomach can make it more
+                    effective. So feel free to take it whenever is most convenient for you.</p>
+                </div>
+              </div>
+              <div class="content_Box">
+                <div class="question">
+                  <span>What makes Ashwagandha KSM-66® the best ashwagandha supplement? </span>
+                </div>
+                <div class="answer">
+                  <p>There's no other root extract on the market that's as potent, easy to absorb and full-spectrum as
+                    our Ashwagandha KSM-66® blend. We've paired it with other high-grade vitamins, such as Iodine, which
+                    helps release energy, boosts cognitive function, and promotes normal nerve function. We've also
+                    added Vitamin B5 to support normal mental performance.</p>
+                </div>
+              </div>
+              <div class="content_Box">
+                <div class="question">
+                  <span>Is ashwagandha suitable for women and men?</span>
+                </div>
+                <div class="answer">
+                  <p>Yes, ashwagandha can be used by both women and men. It is an adaptogenic herb known to help with
+                    stress, anxiety and fatigue, which are common ailments everyone experiences.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ========= Winning section ========= -->
+
+          <div id="page-3" class="page four">
+            <div class="page_heading">Winning Combinations</div>
+            <div class="winning_combination-wrap">
+              <div class="product_wrap">
+                <div class="combinations">
+                  <div>
+                    <p class="customer_heading">Customer Favourite</p>
+                  </div>
+                  <div>
+                    <h6>Triple Immunity</h6>
+                    <img
+                      src="https://www.nutriburstvitamins.com/cdn/shop/files/Ashwagandha_Front_onwhite.678.16_34e999e9-8ac5-49ce-bfbb-8edd70362fc0_200x.png?v=1685982310"
+                      alt="">
+                  </div>
+                  <hr>
+                  <div class="product_description">
+                    <div class="points">
+
+                      <p> <ion-icon name="checkmark-outline"></ion-icon> Builds immunity</p>
+                      <p> <ion-icon name="checkmark-outline"></ion-icon> Protects cells</p>
+                      <p> <ion-icon name="checkmark-outline"></ion-icon> Fights fatigue</p>
+                    </div>
+                    <div class="nb-product-price-wrapper">
+                      <h3 class="nb-product-price product-price__money">£21.99</h3>
+                    </div>
+                    <div class="product_description-button">
+                      <a href="" class="btn">
+                        Buy Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product_wrap">
+                <div class="combinations">
+                  <div>
+                    <p class="customer_heading">Customer Favourite</p>
+                  </div>
+                  <div>
+                    <h6>Turmeric</h6>
+                    <img
+                      src="https://www.nutriburstvitamins.com/cdn/shop/files/Nutriburst.TurmericF__EFEDEA.4_7_200x.png?v=1685950446"
+                      alt="">
+                  </div>
+                  <hr>
+                  <div class="product_description">
+                    <div class="points">
+
+                      <p> <ion-icon name="checkmark-outline"></ion-icon>Anti-inflammatory</p>
+                      <p> <ion-icon name="checkmark-outline"></ion-icon> Rich in antioxidants</p>
+                      <p> <ion-icon name="checkmark-outline"></ion-icon> Fights fatigue</p>
+                    </div>
+                    <div class="nb-product-price-wrapper">
+                      <h3 class="nb-product-price product-price__money">£21.99</h3>
+                    </div>
+                    <div class="product_description-button">
+                      <a href="" class="btn">
+                        Buy Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============Item section ============= -->
+
+    <section class="items section" id="items">
+
+      <h2 class="section_title">items</h2>
+
+      <div class="items_container container">
+        <ul class="items_filters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-man">Man</li>
+          <li data-filter=".filter-woman">Woman</li>
+          <li data-filter=".filter-vitamin">Vitamins</li>
+        </ul>
+
+        <div class="items_wrap-container">
+
+          <div class="items_item filter-vitamin">
+            <div class="items_wrap">
+              <img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/H_V-PRODUCTIMAGE_400x.progressive.jpg?v=1680773758"
+                alt="" class="img-fluid">
+              <div class="items_info">
+
+                <h4>Health and Vitality</h4>
+                <p> <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                <p class="rating_snippet_para">(5 Reviews)</p>
+                </p>
+                <div class="items_links">
+                  <a href="https://www.nutriburstvitamins.com/products/health-vitality-multivitamin-sugar-free-vegan-gummies">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.nutriburstvitamins.com/products/health-vitality-multivitamin-sugar-free-vegan-gummies">
+                    <ion-icon name="link-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="items_item filter-man">
+            <div class="items_wrap">
+              <img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Ashwagandha_Front_onwhite.678.13_400x.progressive.png.jpg?v=1675395987"
+                alt="" class="img-fluid">
+              <div class="items_info">
+
+                <h4>Men's Multivitamin</h4>
+                <p> <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                <p class="rating_snippet_para">(21 Reviews)</p>
+                </p>
+                <div class="items_links">
+                  <a href="https://www.nutriburstvitamins.com/products/mens-multivitamin-sugar-free-vegan-gummies">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.nutriburstvitamins.com/products/mens-multivitamin-sugar-free-vegan-gummies">
+                    <ion-icon name="link-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="items_item filter-woman">
+            <div class="items_wrap">
+              <img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Ashwagandha_Front_onwhite.678.10_400x.progressive.png.jpg?v=1675399482"
+                alt="" class="img-fluid">
+              <div class="items_info">
+
+                <h4>Women's Multivitamin</h4>
+                <p> <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                <p class="rating_snippet_para">(15 Reviews)</p>
+                </p>
+                <div class="items_links">
+                  <a href="https://www.nutriburstvitamins.com/products/womens-multivitamin-sugar-free-vegan-gummies">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.nutriburstvitamins.com/products/womens-multivitamin-sugar-free-vegan-gummies">
+                    <ion-icon name="link-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="items_item filter-woman">
+            <div class="items_wrap">
+              <img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Ashwagandha_Front_onwhite.678.19_400x.progressive.png.jpg?v=1675395093"
+                alt="" class="img-fluid">
+              <div class="items_info">
+
+                <h4>Hair, Skin & Nails</h4>
+                <p> <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                <p class="rating_snippet_para">(45 Reviews)</p>
+                </p>
+                <div class="items_links">
+                  <a href="https://www.nutriburstvitamins.com/products/hair-skin-nails-sugar-free-vegan-gummies">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.nutriburstvitamins.com/products/hair-skin-nails-sugar-free-vegan-gummies">
+                    <ion-icon name="link-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="items_item filter-vitamin">
+            <div class="items_wrap">
+              <img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Nutriburst.D3Front__EFEDEA.1_400x.progressive.png.jpg?v=1675751497"
+                alt="" class="img-fluid">
+              <div class="items_info">
+
+                <h4>Vitamin D3 + K2</h4>
+                <p> <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                <p class="rating_snippet_para">(4 Reviews)</p>
+                </p>
+                <div class="items_links">
+                  <a href="https://www.nutriburstvitamins.com/products/vitamin-d3-k2-sugar-free-vegan-gummies">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.nutriburstvitamins.com/products/vitamin-d3-k2-sugar-free-vegan-gummies">
+                    <ion-icon name="link-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="items_item filter-vitamin">
+            <div class="items_wrap">
+              <img
+                src="https://www.nutriburstvitamins.com/cdn/shop/products/Ashwagandha_Front_onwhite.678.1_400x.progressive.png.jpg?v=1675394102"
+                alt="" class="img-fluid">
+              <div class="items_info">
+
+                <h4>Ashwagandha KSM-66®</h4>
+                <p> <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                  <ion-icon name="star-sharp">
+                  </ion-icon>
+                <p class="rating_snippet_para">(5 Reviews)</p>
+                </p>
+                <div class="items_links">
+                  <a href="https://www.nutriburstvitamins.com/products/ashwagandha-ksm-66-sugar-free-vegan-gummies">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.nutriburstvitamins.com/products/ashwagandha-ksm-66-sugar-free-vegan-gummies">
+                    <ion-icon name="link-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =============Testimonial section ============= -->
+
+    <section class="testimonial section">
+      <h2 class="section_title">Testimonial</h2>
+
+      <div class="testimonial_container container swiper">
+        <div class="swiper-wrapper">
+          <div class="testimonial_item swiper-slide ">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="hola">
+              <p>I don't react well to most herbs and natural anti anxiety tinctures and I stay away from prescription
+                drugs so didn't have high hopes for ashwaganda. I suffer from stomach issues and can't take pills or
+                tablets so gummies are something I was willing to try.
+              </p>
+            </div>
+            <div class="img_name">
+              <img src="https://randomuser.me/api/portraits/women/72.jpg" alt="">
+              <span class="name">Vranda verma</span>
+              <span class="post">Clients</span>
+              <div class="verified">
+                <span class="post"><ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                  Verified Customer</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testimonial_item swiper-slide">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="hola">
+              <p>Speechless - felt immediately the effect of this gummie. It has made me more energetic and alive and
+                really surprised with such quick results This is a Complete game changer. Just buy it is all I can
+                advise
+                👏🏻👏🏻👏🏻👏🏻</p>
+            </div>
+            <div class="img_name">
+              <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="">
+              <span class="name">Kanish</span>
+              <span class="post">Clients</span>
+              <div>
+              </div>
+              <div class="verified">
+                <span class="post"><ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                  Verified Customer</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testimonial_item swiper-slide">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="hola">
+              <p>Best product by far thank you 🙏 </p>
+            </div>
+            <div class="img_name">
+              <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="">
+              <span class="name">Siddharth</span>
+              <span class="post">Clients</span>
+              <div class="verified">
+                <span class="post">
+                  <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                  Verified Customer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial_item swiper-slide">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="hola">
+              <p>My husband has suffered with depression and has hashimoto's thyroid. After just one he noticed
+                increased
+                alertness. Only a few days in</p>
+            </div>
+            <div class="img_name">
+              <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="">
+              <span class="name">Jhalak</span>
+              <span class="post">Clients</span>
+              <div class="verified">
+                <span class="post"><ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                  Verified Customer</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="s-btn swiper-button-next"></div>
+        <div class="s-btn swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+    <!-- =============Contact  section ============= -->
+    <section class="contact section" id="contact">
+      <h2 class="section_title">Contact Us</h2>
+      <div class="contact_container container">
+        <div class="contact_content">
+          <div class="inputs">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+          </div>
+          <input type="password" placeholder="Password">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <a href="" class="btn">Send Message <ion-icon name="chevron-forward-outline"></ion-icon></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============Footer section ============= -->
+    <footer>
+      <div class="footer_bg">
+        <div class="footer_container container">
+          <div class="main_footer">
+            <div class="footer_social">
+              <a href="https://www.facebook.com/nutriburstvitamins"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.instagram.com/nutriburstvits/"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+            <h3>NUTRI BURST</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis quas eius sed corrupti nobis,
+              ea obcaecati harum vero fugit!</p>
+          </div>
+          <div class="footer_copy">&#169 NUTRI BURST. All right reserved </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+  <!-- Swiper js  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Mixitup -->
+  <!-- go to cdnj search mixitup -->
+  <!-- https://cdnjs.com/libraries/mixitup -->
+  <!-- copy the url in script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+    integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- typed js -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Ion Icons  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- javascript file -->
+  <script src="app.js" async defer></script>
+</body>
+
+</html>
